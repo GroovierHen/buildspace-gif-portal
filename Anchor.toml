@@ -1,0 +1,17 @@
+[features]
+seeds = false
+
+[programs.localnet]
+myepicproject = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+myepicproject = "H7uWTxJAxWVMXx5uobjaCVCdm3Eqb8DiSQ29Xf77Ysp5"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/solana-wallet/keypair-2.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
